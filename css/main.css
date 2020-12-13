@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* color: white; */
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(33, 33, 41);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+::selection{
+    background-color: #fcbb6d;
+    color: #fff;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    color: rgb(33, 33, 41);
+}
+
+header .header-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 6% 0 12%;
+}
+
+.header-section__heading {
+    flex: 1 1 0%;
+}
+
+.header-section__heading h1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-weight: 900;
+    font-size: 6rem;
+    letter-spacing: 0.02rem;
+    font-variant-ligatures: none;
+    text-rendering: optimizeLegibility;
+    text-decoration-skip-ink: auto;
+}
+
+.header-section__heading h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header-section__nav {
+    text-align: right;
+}
+
+.header-section__nav .nav-list-item {
+    list-style: none;
+    font-size: 1.6rem;
+    margin: 1.2rem 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list-item__ref {
+    color: rgb(159, 159, 163);
+    font-weight: 700;
+}
+
+.nav-list-item__ref:focus, .nav-list-item__ref:hover, .nav-list-item__ref:active  {
+    color:  rgb(33, 33, 41);
+}
+
