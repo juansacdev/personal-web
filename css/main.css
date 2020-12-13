@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    /* color: white; */
 }
 
 html {
@@ -28,7 +27,7 @@ body {
 
 header {
     width: 100%;
-    height: 150px;
+    height: 140px;
     background-color: rgb(254, 254, 254);
     display: flex;
     justify-content: center;
@@ -38,16 +37,20 @@ header {
 header .header-section {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 0 6% 0 12%;
+    padding: 0 6% 0% 12%;
 }
 
 .header-section__heading {
-    flex: 1 1 0%;
+    /* flex: 1 1 0%; */
+    height: 100%;
 }
 
 .header-section__heading h1>a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    display: inline-block;
+    margin-top: 1rem;
     font-weight: 900;
     font-size: 6rem;
     letter-spacing: 0.02rem;
@@ -70,7 +73,10 @@ a {
 }
 
 .header-section__heading h2 {
-    font-size: 2rem;
+    display: inline-block;
+    margin-top: 0.5rem;
+    /* margin-bottom: 0.5rem; */
+    font-size: 1.8rem;
     font-weight: 700;
 }
 
@@ -80,7 +86,7 @@ a {
 
 .header-section__nav .nav-list-item {
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin: 1.2rem 0px;
 }
 
