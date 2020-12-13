@@ -46,7 +46,7 @@ header .header-section {
     flex: 1 1 0%;
 }
 
-.header-section__heading h1 {
+.header-section__heading h1>a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-weight: 900;
     font-size: 6rem;
@@ -54,6 +54,19 @@ header .header-section {
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     text-decoration-skip-ink: auto;
+    color: rgb(33, 33, 41);
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-section__heading h1>a:hover {
+    cursor: pointer;
+}
+
+.header-section__heading h1>a:active {
+    color: #fcbb6d;
 }
 
 .header-section__heading h2 {
@@ -71,16 +84,15 @@ header .header-section {
     margin: 1.2rem 0px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .nav-list-item__ref {
     color: rgb(159, 159, 163);
     font-weight: 700;
 }
 
-.nav-list-item__ref:focus, .nav-list-item__ref:hover, .nav-list-item__ref:active  {
+.nav-list-item__ref:focus, .nav-list-item__ref:hover{
     color:  rgb(33, 33, 41);
 }
 
+.nav-list-item__ref:active {
+    color: #fcbb6d;
+}
