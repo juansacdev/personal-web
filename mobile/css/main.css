@@ -43,9 +43,10 @@ header {
     position: relative;
     width: 100%;
     min-width: 320px;
-    height: 150px;
+    height: 200px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+    margin-bottom: 2.5rem;
 }
 
 .header-section {
@@ -57,10 +58,14 @@ header {
     grid-template-rows: 1fr 1fr 1fr;
 }
 
+.header-section h1 {
+    padding-top: 1rem;
+}
+
 .header-section h1 > a {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
     font-weight: 900;
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     letter-spacing: 0.02rem;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
@@ -81,9 +86,9 @@ header {
 }
 
 .header-section h2 {
+    font-size: 1.6rem;
     font-weight: 700;
     padding-top: 10px;
-    font-size: 1.6rem;
 }
 
 .header-section__nav .nav-list {
@@ -92,13 +97,13 @@ header {
 }
 
 .nav-list-item {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 0 auto;
 }
 
 .nav-list-item a {
     color: var(--unfocus-color);
-    font-weight: 700;
+    font-weight: 500;
     border-bottom: 1px solid var(--unfocus-color);
     padding-bottom: 2px;
 }
@@ -107,6 +112,7 @@ header {
     color: var(--primary-color);
     border-bottom: 2px solid var(--primary-color);
     outline-style: none;
+    font-weight: 700;
 }
 
 .nav-list-item a:active {
@@ -116,9 +122,58 @@ header {
 
 /* Main */
 
+.site-main {
+    min-width: 320px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    height: 70vh;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.section-secondary {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+}
+
+.section-secondary-container  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    text-align: justify;
+    line-height: 22.5px;
+    font-weight: 400;
+    height: 100%;
+}
+
+.section-secondary-container div {
+    max-height: 180px;
+    overflow-y: scroll;
+}
+
+.section-secondary-paragraph  {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 2.2rem;
+    border-bottom: 1px solid var(--unfocus-color);
+    padding-bottom: 10px;
+}
+
 .img-container {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 100%;
     overflow: hidden;
 }
@@ -130,10 +185,9 @@ header {
 /* Footer */
 
 footer {
-    position: relative;
     width: 100%;
     min-width: 320px;
-    height: 80px;
+    height: 100px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
@@ -143,18 +197,17 @@ footer {
     height: 100%;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    align-items: center;
     text-align: center;
 }
 
 .footer-section p {
     align-self: flex-end;
-    padding-bottom: 5px;
+    padding-bottom: 0.5rem;
     font-size: 1.3rem;
     font-weight: 500;
 }
 
 .footer-section__nav .nav-list {
     display: flex;
-    justify-content: center;
+    padding-top: 1rem;
 }
