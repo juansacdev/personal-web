@@ -1,0 +1,29 @@
+.header-section h1 > a {
+    font-size: 6rem;
+}
+.nav-list-item {
+    font-size: 1.8rem;
+}
+.footer-section__nav .nav-list {
+    padding-bottom: 2.5rem;
+}
+.footer-section p {
+    font-size: 1.5rem;
+}
+.img-container {
+    width: 200px;
+    height: 200px;
+}
+.section-secondary-paragraph {
+    font-size: 3rem;
+}
+.section-secondary-container {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.section-secondary-container div {
+    overflow: hidden;
+}
+.contact-section, .about-section {
+    font-size: 2rem;
+}

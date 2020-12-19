@@ -1,0 +1,38 @@
+header {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 10vw;
+}
+.header-section h1 {
+    align-self: center;
+    text-align: start;
+    display: inline-block;
+    padding: 0;
+}
+.header-section h1 > a {
+    font-size: 4rem;
+}
+.header-section h2 {
+    display: none;
+}
+.header-section__nav > .nav-list {
+    display: block;
+    text-align: right;
+}
+.header-section__nav > .nav-list > .nav-list-item {
+    margin: 1.2rem 0;
+}
+.img-container {
+    width: 150px;
+    height: 150px;
+}
+.site-main, .contact-site-main, .about-site-main {
+    min-height: calc(100vh - 240px);
+}
