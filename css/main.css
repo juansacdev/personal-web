@@ -99,6 +99,8 @@ header {
     border-bottom: 2px solid var(--primary-color)
 }
 .site-main {
+    display: flex;
+    align-items: center;
     min-width: 320px;
     min-height: calc(100vh - 302px);
 }
@@ -133,8 +135,6 @@ header {
     font-weight: 400;
     height: 100%;
     width: 100%;
-    /* media query en depstok pa que se ajuste al mismo tamaño del nav */
-    /* padding: 2.5rem 4vh 0; */
 }
 .section-secondary-container > p {
     display: block;
@@ -142,8 +142,6 @@ header {
 }
 .section-secondary-container div {
     margin-top: 35px;
-    max-height: 158px;
-    overflow-y: scroll;
 }
 .section-secondary-paragraph  {
     display: inline-block;
