@@ -11,11 +11,3 @@ I learn so much doing my web site and I'm happy for that :)
 ## Home Page
 
 ![](https://github.com/juansacok/juansacok.github.io/blob/main/assets/home_page.png)
-
-## Contact Page
-
-![](https://github.com/juansacok/juansacok.github.io/blob/main/assets/contact_page.png)
-
-## About Page
-
-![](https://github.com/juansacok/juansacok.github.io/blob/main/assets/about_page.png)
