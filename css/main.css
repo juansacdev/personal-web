@@ -2,7 +2,8 @@
     --primary-color: rgb(33, 33, 41);
     --secondary-color: #fff;
     --color-effects: #fcbb6d;
-    --unfocus-color: rgb(159, 159, 163);
+    /* --unfocus-color: rgb(159, 159, 163); */
+    --unfocus-color: #786e7b;
 }
 * {
     padding: 0;
@@ -32,10 +33,9 @@ a, li {
     display: none;
 }
 header {
-    position: relative;
     width: 100%;
     min-width: 320px;
-    height: 200px;
+    height: 170px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
 }
@@ -72,11 +72,12 @@ header {
 .header-section h2 {
     font-size: 1.6rem;
     font-weight: 700;
-    padding-top: 10px;
+    padding-top: 15px;
+    align-self: flex-start;
 }
 .header-section__nav .nav-list {
     display: flex;
-    justify-content: space-between;
+    padding-bottom: 10px;
 }
 .nav-list-item {
     font-size: 1.4rem;
@@ -102,7 +103,7 @@ header {
     display: flex;
     align-items: center;
     min-width: 320px;
-    min-height: calc(100vh - 302px);
+    min-height: calc(100vh - 272px);
 }
 .main-container {
     display: flex;
@@ -111,7 +112,7 @@ header {
     height: 100%;
 }
 .main-section {
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -174,14 +175,15 @@ footer {
     text-align: center;
 }
 .footer-section p {
-    align-self: flex-end;
-    padding-bottom: 0.5rem;
-    font-size: 1.3rem;
-    font-weight: 500;
+    align-self: center;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    grid-row: 2;
 }
 .footer-section__nav .nav-list {
     display: flex;
-    padding-top: 1rem;
+    padding-top: 2rem;
 }
 .contact-site-main, .about-site-main {
     display: flex;
@@ -191,7 +193,7 @@ footer {
     -webkit-box-align: center;
     min-width: 320px;
     height: 100%;
-    min-height: calc(100vh - 300px);
+    min-height: calc(100vh - 270px);
 }
 .contact-section, .about-section {
     margin: 40px 0px;
