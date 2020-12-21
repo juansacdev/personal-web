@@ -1,14 +1,17 @@
+header {
+    height: 200px;
+}
 .header-section h1 > a {
     font-size: 6rem;
+}
+.header-section h2 {
+    font-size: 2.2rem;
 }
 .nav-list-item {
     font-size: 1.8rem;
 }
-.footer-section__nav .nav-list {
-    padding-bottom: 2.5rem;
-}
 .footer-section p {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .img-container {
     width: 200px;
@@ -21,9 +24,9 @@
     font-size: 2rem;
     line-height: 3rem;
 }
-.section-secondary-container div {
-    overflow: hidden;
-}
-.contact-section, .about-section {
+.contact-site-main > .contact-section, .about-site-main > .about-section {
     font-size: 2rem;
+}
+.site-main, .contact-site-main, .about-site-main {
+    min-height: calc(100vh - 300px);
 }
